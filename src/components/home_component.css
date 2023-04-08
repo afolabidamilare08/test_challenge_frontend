@@ -1,0 +1,113 @@
+.home-bg{
+    /* border: 1px solid red; */
+    min-height: 100vh;
+    background-image: url('../assets/img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.mid_div{
+    width: 30%;
+    min-height: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: 17;
+    top: 50%;
+    left: 50%;
+    border-radius: 7px;
+    padding:20px;
+    padding-top: 40px;
+    transform: translate(-50%, -50%);
+}
+
+.mid_div-title{
+    margin: 0;
+    text-align: center;
+    font-family: "Averia Libre";
+    font-size: 1.3rem;
+}
+
+.mid_div-sub{
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: gray;
+    font-family: "Titillium Web";
+}
+
+.mid_div-form{
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+
+.mid_div-form-div{
+    margin-top: 18px;
+}
+
+.mid_div-form-div-label{
+    display: block;
+    font-family: "Titillium Web";
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.mid_div-form-div-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-family: "Titillium Web";
+    transition: all .5s;
+}
+
+.mid_div-form-div-input:focus,
+.mid_div-form-div-input:hover{
+    outline: none;
+    border: 2px solid orange;
+}
+
+.mid_div-form-btn{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    font-family: "Titillium Web";
+    color: white;
+    font-weight: 700;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background-color: #cdb891;
+}
+
+.mid_div-form-btn:hover,
+.mid_div-form-btn:focus{
+    background-color: #cdb891b5;
+}
+
+.mid_div-form-div-checkBox{
+    display: block;
+    /* width: 100%; */
+    /* padding: 10px; */
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-family: "Titillium Web";
+    transition: all .5s;
+}
+
+.checkBox-div{
+    display: flex;
+}
+
+.agree-text{
+    font-weight: 500;
+    margin-left: 10px;
+}

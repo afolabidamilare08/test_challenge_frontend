@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Axios from 'axios';
+import { HomePage } from './container/homePage';
+import { EditPage } from './container/EditPage';
+
 
 function App() {
+
+
+  Axios.defaults.baseURL = "http://localhost:5000/"; 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={ <HomePage/> } />
+        <Route path="/edit_user/:name" exact element={ <EditPage/> } />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
