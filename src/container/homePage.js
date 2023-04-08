@@ -1,5 +1,5 @@
 import Axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { HomeComponent } from "../components/home_component";
 import { useNavigate } from "react-router-dom";
 import useSectorFetch from "../hooks/sectors_hook";

@@ -8,7 +8,7 @@ import { EditPage } from './container/EditPage';
 function App() {
 
 
-  Axios.defaults.baseURL = "http://localhost:5000/"; 
+  Axios.defaults.baseURL = "https://tetbackend-production.up.railway.app/"; 
 
   return (
     <BrowserRouter>
