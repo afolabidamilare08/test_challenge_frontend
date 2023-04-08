@@ -111,3 +111,37 @@
     font-weight: 500;
     margin-left: 10px;
 }
+
+
+
+@media screen and (max-width: 1273px ) {
+
+    .mid_div{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 790px ) {
+
+    .mid_div{
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 600px ) {
+
+    .mid_div{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 400px ) {
+
+    .mid_div{
+        width: 90%;
+    }
+
+}
