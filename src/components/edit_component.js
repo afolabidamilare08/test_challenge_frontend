@@ -38,9 +38,6 @@ export const EditCOmponent = ({
 
                         <div className='mid_div-form-div' >
                             <label className='mid_div-form-div-label' >Sector</label>
-                            {/* <select multiple className='mid_div-form-div-input' onChange={onChangeSector} value={SectorValue} >
-                                {Sector_options}
-                            </select> */}
                             <Select classNamePrefix={"hsys"} options={Sector_options} value={SectorValue} onChange={onChangeSector} placeholder="Select Sector" isSearchable={true} isMulti />
                         </div>
 

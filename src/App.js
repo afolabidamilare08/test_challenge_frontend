@@ -8,7 +8,7 @@ import { EditPage } from './container/EditPage';
 function App() {
 
 
-  Axios.defaults.baseURL = "https://tetbackend-production.up.railway.app/"; 
+  Axios.defaults.baseURL = "https://calm-blue-fawn-hat.cyclic.app/"; 
 
   return (
     <BrowserRouter>

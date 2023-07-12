@@ -21,11 +21,8 @@ export const HomeComponent = ({
             <div className='mid_div' >
 
                 { isLoading ?
-                
                     <LoadingComponent/>
-
                 :
-                
                 <>
                 
                     <h4 className='mid_div-title' >Create User</h4>
@@ -40,9 +37,6 @@ export const HomeComponent = ({
 
                         <div className='mid_div-form-div' >
                             <label className='mid_div-form-div-label' >Sector</label>
-                            {/* <select multiple className='mid_div-form-div-input' onChange={onChangeSector} value={SectorValue} >
-                                {Sector_options}
-                            </select> */}
                             <Select classNamePrefix={"hsys"} options={Sector_options} value={SectorValue} onChange={onChangeSector} placeholder="Select Sector" isSearchable={true} isMulti />
                         </div>
 

@@ -9,9 +9,6 @@ export const HomePage = () => {
 
     const navigate = useNavigate();
 
-    // const [Sectors, SetSectors] = useState(null)
-    // const [isLoading, SetisLoading] = useState(true)
-    // const [Error, setError] = useState(null)
     const [Name, setName] = useState('')
     const [MySector, setMySector] = useState(null)
     const [Checkbox, setCheckbox] = useState(false)
@@ -23,9 +20,7 @@ export const HomePage = () => {
     const HandleSaveUser = () => {
 
         setbtnIsloading(true)
-
-        // console.log(MySector)
-
+        
         if (!MySector || Name === '' || !Checkbox) {
             alert("Please Fill all fileds")
             setbtnIsloading(false)
